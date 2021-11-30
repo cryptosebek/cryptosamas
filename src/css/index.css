@@ -1,0 +1,17 @@
+body, html {
+    /* height: 100%; */
+    margin: 0 auto;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+}
+body {
+  /* position: relative; */
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color:white;
+  background-color:black;
+  font-family:'Conv_Sansus Webissimo-Regular',Sans-Serif;
+  font-size:12px;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "cryptosamas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@polkadot/api": "^6.5.2",
+    "@polkadot/extension-dapp": "^0.40.4",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "evergreen-ui": "^6.5.1",
+    "fastify": "^3.22.1",
+    "fastify-compress": "^3.6.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-static": "^4.4.2",
+    "i": "^0.3.7",
+    "mongoose": "^6.0.12",
+    "node-cron": "^3.0.0",
+    "npm": "^8.1.1",
+    "react": "^17.0.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-spring-3d-carousel": "^1.2.1",
+    "sharp": "^0.29.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "HOST=localhost NODE_ENV=development nodemon index.js 3001",
+    "winserver": "set \"HOST=localhost\" && set \"NODE_ENV=development\" && nodemon index.js 3001",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
