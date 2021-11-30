@@ -24,20 +24,20 @@ npm run server
 ```
 npm run winserver
 ```
-
-### Run
+<br/>
 Wait once all media is pre-cached and go to http://localhost:3001
+<br/>
 
 ## Unity project
-######Unity project folder:
+###### Unity project folder:
 cryptosamas-battle-unity
-######Version:
-Unity 2020.3.21f1
-######Target platform:
-WebGL
-######Assumption:
-you can run website and play the battle without installing Unity,
+###### Version:
+Unity 2020.3.21f1<br/>
+###### Target platform:
+WebGL<br/>
+###### Assumption:
+you can run website and play the battle without installing Unity,<br/>
 you will need it only in case if you will want to change something and rebuild WebGL build
 
-### License:
-MIT license
+## License:
+### MIT license
